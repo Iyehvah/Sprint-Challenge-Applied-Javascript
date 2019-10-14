@@ -23,6 +23,10 @@ function Header() {
     headerContainer.appendChild(titleH1);
     headerContainer.appendChild(temp);
 
+    spanDate.textContent = "SMARCH 28, 2019";
+    titleH1.textContent = "Lambda Times";
+    temp.textContent = "98°";
+
     console.log(headerContainer);
     return headerContainer;
 }
