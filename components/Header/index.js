@@ -15,9 +15,9 @@ function Header() {
     const titleH1 = document.createElement('h1');
     const temp = document.createElement('span');
 
-    headerContainer.classList.add('header');
-    spanDate.classList.add('date');
-    temp.classList.add('temp');
+    headerContainer.classList.add("header");
+    spanDate.classList.add("date");
+    temp.classList.add("temp");
 
     headerContainer.appendChild(spanDate);
     headerContainer.appendChild(titleH1);
